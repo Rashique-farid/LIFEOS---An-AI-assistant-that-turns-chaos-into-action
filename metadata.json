@@ -1,0 +1,6 @@
+{
+  "name": "LIFEOS",
+  "description": "AI assistant that turns chaotic thoughts, voice notes, and screenshots into an actionable daily schedule with smart auto-replanning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

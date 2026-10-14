@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glowing background accent ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3300F0FF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,26 A28,28 0 1,0 54,82 A28,28 0 1,0 54,26 Z" />
+    
+    <!-- Outer hexagon nexus frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7C4DFF"
+        android:strokeWidth="2"
+        android:pathData="M54,28 L76,40 L76,68 L54,80 L32,68 L32,40 Z" />
+
+    <!-- Luminous lightning turning chaos into order -->
+    <path
+        android:pathData="M57,32 L40,54 L52,54 L49,76 L68,52 L56,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="32"
+                android:endX="68"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F0FF" />
+                <item android:offset="0.5" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Core pulse node -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+</vector>

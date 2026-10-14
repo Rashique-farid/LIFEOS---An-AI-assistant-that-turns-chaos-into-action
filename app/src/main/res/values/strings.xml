@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LIFEOS</string>
+    <string name="subtitle">From Chaos to Action</string>
+    <string name="voice_capture_hint">Speak your tasks, deadlines, and rants naturally…</string>
+    <string name="screenshot_analyze_title">Screenshot Intelligence</string>
+    <string name="auto_replan_button">Auto-Replan</string>
+    <string name="dashboard_tab">Executive Dashboard</string>
+    <string name="timeline_tab">Timeline Agenda</string>
+</resources>
